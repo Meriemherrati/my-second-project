@@ -1,0 +1,13 @@
+body{
+    background-color: antiquewhite;
+}
+
+a:link{
+    float: left;
+    width: 17%;
+    text-align: right;
+}
+
+#firstp{
+    text-align: justify
+}
