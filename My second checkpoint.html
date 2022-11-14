@@ -13,10 +13,10 @@
     </header>
     <nav>
         <a href="#">Home</a>
-        <a href="#Work">Work</a>
         <a href="#Resume">Resume</a>
-        <a href="#">About</a>
-        <a href="#">Contact me</a>
+        <a href="#Work">Work</a>
+        <a href="#About">About</a>
+        <a href="#Contact me">Contact me</a>
     </nav>
     <main>
         <br><h1>Meriem Herrati: Biotechnologist by Day and Developer By Night</h1>
@@ -60,9 +60,72 @@
         </section>
         <section id="Work">
             <h3>My work Experience</h3>
-                <h4>Photography amateur</h4>
+                <div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Work</th>
+                                <th></th>
+                                <th>Experience</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Photography amateur</td>
+                                <td></td>
+                                <td>2 Years</td>
+                            </tr>
+                            <tr>
+                                <td>Research and development trainee</td>
+                                <td></td>
+                                <td>3 Years</td>
+                            </tr>
+                            <tr>
+                                <td>Quality assurance Analayst</td>
+                                <td></td>
+                                <td>1 Year</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+        </section>
+        <section id="About">
+                <h2>What do you think about my page?</h2>
+                <div>
+                    <label>Feedback about the page?</label><br> <!--Still don't know how to make only one choice in forms ...?????-->
+                    <label>Excellent <input type="radio" name="" value="M" ></label>
+                    <label>Good <input type="radio" name="" value="F" ></label>
+                    <label>Bad <input type="radio" name="" value="x" ></label>
+                </div>
+                <div>
+                    <label>Need any services?</label><br>
+                    <label>Yes <input type="radio" name="" value="M" ></label>
+                    <label>No <input type="radio" name="" value="F" ></label>
+                    <label>Maybe in the future<input type="radio" name="" value="x" ></label>
+                </div> 
+        </section>
+        <section id="Contact me">
+            <h2>To get in touch please fill the following form</h2>
+            <div>
+                <form action="/My second checkpoint.html" method="post">
+                    <Label for="name">Name</Label>
+                    <input type="text" id="name" placeholder="your name">
+                    <label for="Surname">Family name</label>
+                    <input type="text" id="surname" placeholder="your family name">
+                    <label for="Birthdate">Date of Birth</label>
+                    <input type="date" name="date" id=""><br>
+                    <label for="Phone number">Phone number</label>
+                    <input type="number" name="phone number" placeholder="(+213)">
+                    <label for="email">Email</label>
+                    <input type="email" name="Email" id="" placeholder="Your Email"><br><br>
+                    <label for="Feedback">Feedback</label><br>
+                    <textarea name="feedback" id="" cols="60" rows="10" maxlength="400"></textarea><br>
+                    <button type="submit">Send!</button>
+                </form>
+                
+            </div>
 
-        </section>    
+        </section>
     </main>
 </body>
 </html>
