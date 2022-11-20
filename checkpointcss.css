@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&family=Roboto:ital,wght@1,300&display=swap');
+
+body {
+    background-color: bisque;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    margin-left: auto;
+    gap: 20px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+.title {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    color: brown;
+    font-size: larger;
+    font-weight: bold;
+    gap: 15px;
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+    padding-left: 550px;
+    width:300px;
+    height: 280px;  
+}
+
+
+.firstpar {
+    display: flex;
+    color: rgb(66, 41, 9);
+    justify-content: center;
+    flex-direction: column;
+    letter-spacing: 3px;
+    margin: auto;
+    padding: auto;
+    align-content: center;
+    width:50%;
+    text-align: justify;
+    font-size: large;
+    
+
+
+
+}
+
+a:link {
+    text-decoration: none;
+    color: brown;
+    background-color: bisque;
+    border-radius: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: medium;
+}
+
+.sidebar {
+    background-image: url(https://img.freepik.com/free-vector/watercolor-autumn-leaves-background_52683-68746.jpg?w=2000);
+    width: 10%;
+    display: flex;
+    height: 100vh;
+    height: auto;
+}
+
+main {
+    width: 100%;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    background-image: url(https://img.freepik.com/free-vector/realistic-autumn-wallpaper-theme_23-2148602589.jpg?w=2000);
+}
+
+main .header {
+    background-color: aliceblue;
+    height: 10%;
+}
+
+/* footer {
+    display: flex;
+    background-image: url(https://img.freepik.com/free-vector/watercolor-autumn-leaves-background_52683-68746.jpg?w=2000);
+    height: 50px;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+
+} */
