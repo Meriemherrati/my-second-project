@@ -22,11 +22,11 @@
         <main>
             <header class="header">
                 <nav>
-                    <a href="#">Home</a>
-                    <a href="#">Resume</a>
-                    <a href="#">Work</a>
-                    <a href="#">About</a>
-                    <a href="#">contact-me</a>
+                    <a href="#home">Home</a>
+                    <a href="#resume">Resume</a>
+                    <a href="#work">Work</a>
+                    <a href="#about">About</a>
+                    <a href="#contact-me">contact-me</a>
                 </nav>
             </header>
             <div class="content">
@@ -47,35 +47,121 @@
                             professionnal orientation.in November 2022, started a web development full-stack 20
                             weeks training. The experience is
                             so far so good.
-                            
                         </p>
                     </div>
                 </section>
                 <section class="resume">
-                    <div part1>
+                    <div id="my-resume">
                         <h2>My Resume</h2>
-                        <h3>Educational Background</h3>
+                    </div>
+                    <div class="part1">
+                        <div class="list1">
+                            <h3>Educational Background</h3>
+                            <ul>
+                                <li>2014: Bachelor's degree in Experimental Science -Algiers-</li>
+                                <li>2017: Licence's degree in Biotechnology and Health -USTHB-</li>
+                                <li>2019: Master's degree in Biotechnology and molecular pathologies -USTHB-</li>
+                            </ul>
+                        </div>
+                        <div class="list2">
+                            <h3>Professional Experience</h3>
+                            <ul>
+                                <li>2018-2021: Part time Madical analysis Lab Technician</li>
+                                <li>2019-2020: Full time Technical-Commercial Agent</li>
+                                <li>2020-2021: Full time Laboratory Technician</li>
+                                <li>2021-Currently: Quality Assurance Analayst</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section class="work">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Work</th>
+                                <th></th>
+                                <th>Experience</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Photography amateur</td>
+                                <td></td>
+                                <td>2 Years</td>
+                            </tr>
+                            <tr>
+                                <td>Research and development trainee</td>
+                                <td></td>
+                                <td>3 Years</td>
+                            </tr>
+                            <tr>
+                                <td>Quality assurance Analayst</td>
+                                <td></td>
+                                <td>1 Year</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="extra">
+                        <h3>Extra Activities</h3>
+                        <ol>
+                            <li>Biology Tutor</li>
+                            <li>Volunteer at the Children of the moon association "Xeroderma Pigmentosum"</li>
+                            <li>Participating in awareness compaigns against SIDA, Breast Cancer...</li>
+                            <li>Choire singer "check my latest video"<br><iframe width="560" height="315"
+                                    src="https://www.youtube.com/embed/SyQacaFMss8" title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe></li>
+                        </ol>
+                    </div>
+                </section>
+                <section class="about">
+                    <h2>What do you think about my page?</h2>
+                    <div>
+                        <label>Feedback about the page?</label><br>
+                        <!--Still don't know how to make only one choice in forms ...?????-->
+                        <label>Excellent <input type="radio" name="" value="M"></label>
+                        <label>Good <input type="radio" name="" value="F"></label>
+                        <label>Bad <input type="radio" name="" value="x"></label>
+                    </div>
+                    <div>
+                        <label>Need any services?</label><br>
+                        <label>Yes <input type="radio" name="" value="M"></label>
+                        <label>No <input type="radio" name="" value="F"></label>
+                        <label>Maybe in the future<input type="radio" name="" value="x"></label>
                     </div>
 
                 </section>
-                <section class="work">
-
-                </section>
-                <section class="about">
-
-                </section>
                 <section class="contact-me">
+                    <h2>To get in touch please fill the following form</h2>
+                        <div>
+                            <form action="/My second checkpoint.html" method="post">
+                                <Label for="name">Name</Label>
+                                <input type="text" id="name" placeholder="your name">
+                                <label for="Surname">Family name</label>
+                                <input type="text" id="surname" placeholder="your family name">
+                                <label for="Birthdate">Date of Birth</label>
+                                <input type="date" name="date" id=""><br>
+                                <label for="Phone number">Phone number</label>
+                                <input type="number" name="phone number" placeholder="(+213)">
+                                <label for="email">Email</label>
+                                <input type="email" name="Email" id="" placeholder="Your Email"><br><br>
+                                <label for="Feedback">Feedback</label><br>
+                                <textarea name="feedback" id="" cols="100" rows="10" maxlength="400"></textarea><br>
+                                <button type="submit">submit</button>
+                            </form>
+                        </div>
 
                 </section>
 
             </div>
         </main>
     </div>
-   
+
 </body>
-<!-- <footer>
+<footer>
     
 
-</footer> -->
+</footer>
 
 </html>
