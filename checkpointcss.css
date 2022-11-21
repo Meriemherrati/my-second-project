@@ -5,7 +5,7 @@ body {
     padding: 0;
     margin: 0;
     width: auto;
-    min-height: 100vh;
+    min-height: 100%;
 }
 
 .container {
@@ -40,8 +40,8 @@ nav {
     display: flex;
     flex-direction: row;
     padding-left: 550px;
-    width:300px;
-    height: 280px;  
+    width: 300px;
+    height: 280px;
 }
 
 
@@ -54,13 +54,9 @@ nav {
     margin: auto;
     padding: auto;
     align-content: center;
-    width:50%;
+    width: 50%;
     text-align: justify;
     font-size: large;
-    
-
-
-
 }
 
 a:link {
@@ -79,8 +75,7 @@ a:link {
     background-image: url(https://img.freepik.com/free-vector/watercolor-autumn-leaves-background_52683-68746.jpg?w=2000);
     width: 10%;
     display: flex;
-    height: 100vh;
-    height: auto;
+    min-height: 100%;
 }
 
 main {
@@ -95,11 +90,11 @@ main {
 
 main .header {
     background-color: aliceblue;
-    height: 10%;
+    height: 5%;
 }
 
-/* footer {
-    display: flex;
+footer {
+    /* display: flex; */
     background-image: url(https://img.freepik.com/free-vector/watercolor-autumn-leaves-background_52683-68746.jpg?w=2000);
     height: 50px;
     width: 100%;
@@ -107,4 +102,90 @@ main .header {
     margin-bottom: auto;
     
 
-} */
+}
+
+.resume {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    color: rgb(70, 23, 23);
+    padding-left: 20px;
+}
+
+.list1 {
+    font-size: larger;
+    justify-content: left;
+    align-items: left;
+    padding-right: 10px;
+}
+
+#my-resume {
+    color: white;
+    display: flex;
+    background-color: rgb(195, 114, 15);
+    border-radius: 0%;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: medium;
+
+}
+
+.part1 {
+    display: flex;
+}
+
+.list2 {
+    text-align: justify;
+    justify-content: right;
+    padding-left: 15%;
+    font-size: larger;
+    align-items: right;
+}
+
+.table {
+    /* display: flex; */
+    justify-content: right;
+    /* flex-direction: column; */
+    font-size: larger;
+    align-items: right;
+    text-align: justify;
+}
+
+.extra {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    font-size: larger;
+    font-size: larger; 
+}
+
+.about {
+    /* display: flex; */
+    flex-direction: column;
+    font-size: larger;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    margin-bottom: auto;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+}
